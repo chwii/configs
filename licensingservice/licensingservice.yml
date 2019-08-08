@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    database: postgresql
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    platform: postgres
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/eagle_eye_local
+    username: root
+    password: {ciper}ef421941e9980d64af85ba8d4d9fccba0dcbfd660e8d81280f84a15f9d3db18a
