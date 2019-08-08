@@ -5,7 +5,7 @@ spring.jpa.show-sql: "true"
 spring.database.driverClassName: "org.postgresql.Driver"
 spring.datasource.url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
 spring.datasource.username: "root"
-spring.datasource.password: "{ciper}ef421941e9980d64af85ba8d4d9fccba0dcbfd660e8d81280f84a15f9d3db18a"
+spring.datasource.password: {ciper}ef421941e9980d64af85ba8d4d9fccba0dcbfd660e8d81280f84a15f9d3db18a
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect:
