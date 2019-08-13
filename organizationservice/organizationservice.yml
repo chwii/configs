@@ -1,3 +1,5 @@
+example.propertie: "I AM THE DEFAULT ORGANIZATION"
+
 server:
   port: 8081
 
