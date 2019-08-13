@@ -1,4 +1,4 @@
-example.propertie: "I AM THE DEFAULT LICENSE"
+example.propertY: "I AM THE DEFAULT LICENSE"
 
 spring:
   jpa:
