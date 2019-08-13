@@ -13,3 +13,12 @@ spring:
     url: jdbc:postgresql://localhost:5432/eagle_eye_local
     username: root
     password: '{cipher}ef421941e9980d64af85ba8d4d9fccba0dcbfd660e8d81280f84a15f9d3db18a'
+    
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
